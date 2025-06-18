@@ -16,7 +16,7 @@ const tabsItems: Array<{ title: string, status: TabsStatusType }> = [
         status: "all"
     },
     {
-        title: "ToDoList",
+        title: "Managers",
         status: "ToDoList"
     },
     {
@@ -30,8 +30,8 @@ const tabsItems: Array<{ title: string, status: TabsStatusType }> = [
 ]
 const worksData = [
     {
-        title: "ToDoList",
-        text: "Following values to test the application:\n",
+        title: "Task Tracker",
+        text: "\n",
         src: timerImg,
         type: "ToDoList",
         id: 1,
@@ -40,11 +40,10 @@ const worksData = [
     },
     {
         title: "Inctagram",
-        text: "Following values to test the application:\n" +
+        text: "\n" +
             " \n" +
             " \n" +
-            " \n" +
-            "PASSWORD: 111",
+            " \n",
         src: socialImg,
         type: "SocialNetwork",
         id: 2,
